@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
+    font-family: 'Courier New', Courier, monospace;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    background-color: rgb(255,255,255);
+    padding: 20px 0;
+    z-index: 10;
+}
+
+main {
+    margin-top: 100px; /* espaço para o header fixo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.relogio {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.letreiro {
+    font-size: 2em;
+    background-color: rgb(255,255,255);
+    padding: 20px 40px;
+    border: 2px solid rgb(0,255,0);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgb(0,255,0);
+    white-space: nowrap;
+    overflow: hidden;
+    position: relative;
+}
+
+.cursor::after {
+    content: '';
+    display: inline-block;
+    width: 10px;
+    height: 1em;
+    background-color: rgb(0,255,0);
+    margin-left: 5px;
+    animation: blink 1s infinite;
+    vertical-align: bottom;
+}
+
+@keyframes blink {
+    0%, 50% { opacity: 1; }
+    50.01%, 100% { opacity: 0; }
+}

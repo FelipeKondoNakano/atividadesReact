@@ -7,7 +7,7 @@ export default function MinhaRotas(){
     return (
         <BrowserRouter>
         <Routes>
-            <Route path="/" elemet={<Home />}/>
+            <Route path="/" element={<Home />}/>
             <Route path="/atv01" element={<Atv01 />}/>
             <Route path="/atv02" element={<Atv02 />}/>
         </Routes>

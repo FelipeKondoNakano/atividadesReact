@@ -22,5 +22,9 @@ export default function Letreiro({ texto, intervalo = 150, delayReinicio = 1000 
     return () => clearTimeout(timer);
   }, [index, texto, intervalo, delayReinicio]);
 
-  return <h1 data-testid="letreiro">{exibido}</h1>;
+  return (
+    <div class="letreiro">
+      <h2 data-testid="texto">{exibido}</h2>
+    </div>
+  );
 }
