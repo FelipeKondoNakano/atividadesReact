@@ -1,5 +1,5 @@
-import Relogio from "./Relogio";
-import Letreiro from "./Letreiro";
+import Relogio from "./Components/Relogio";
+import Letreiro from "./Components/Letreiro";
 import { Link } from "react-router-dom";
 import "./atv01.css";
 
@@ -11,7 +11,7 @@ export default function Atv01() {
             </header>
             <main>
                 <Relogio />
-                <Link to="/">Home</Link>
+                <Link to="/" className="voltar-home">Home</Link>
                 <Letreiro texto="Venha estudar na Fatec!" intervalo={150} delayReinicio={1000}/>
             </main>
         </div>
