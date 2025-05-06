@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Contador from './Components/Contador';
 import { Link } from "react-router-dom";
-import './atv02.css';
+import './styles/atv02.css';
 
 export default function Atv02() {
   const [homens, setHomens] = useState(0);

@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import './home.css';
+import './styles/home.css';
 
 const Home = () => {
     return (
@@ -9,6 +9,7 @@ const Home = () => {
             <nav className="home-nav">
                 <Link to="/Atv01" className="home-link">Atividade 1</Link>
                 <Link to="/Atv02" className="home-link">Atividade 2</Link>
+                <Link to="/Atv03" className="home-link">Atividade 3</Link>
             </nav>
         </div>
     );
