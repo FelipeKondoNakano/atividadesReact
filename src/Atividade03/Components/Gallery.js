@@ -12,6 +12,8 @@ export default function Gallery() {
         <section>
             <h1>Amazing Scientist</h1>
             <Profile />
+            <Profile />
+            <Profile />
         </section>
     );
 }

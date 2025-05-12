@@ -1,8 +1,8 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
-import Atv01 from "./Atv01";
-import Atv02 from "./Atv02";
-import Atv03 from "./Atv03";
+import Atv01 from "./Atividade01/Atv01";
+import Atv02 from "./Atividade02/Atv02";
+import Atv03 from "./Atividade03/Atv03";
 
 export default function MinhaRotas(){
     return (

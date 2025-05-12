@@ -1,7 +1,7 @@
 import Relogio from "./Components/Relogio";
 import Letreiro from "./Components/Letreiro";
 import { Link } from "react-router-dom";
-import "./styles/atv01.css";
+import "./atv01.css";
 
 export default function Atv01() {
     return(
