@@ -28,11 +28,11 @@ export default function SculptureGallery() {
             <h3>
                 ({index+1} of {sculptureList.length})
             </h3>
-            {showMore && <p>{sculpture.description}</p>}
             <img 
                 src={sculpture.url}
                 alt={sculpture.alt}
-            />
+                />
+            {showMore && <p>{sculpture.description}</p>}
         </>
     )
 }
