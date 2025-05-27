@@ -11,6 +11,7 @@ const Home = () => {
                 <Link to="/Atv02" className="home-link">Atividade 2</Link>
                 <Link to="/Atv03" className="home-link">Atividade 3</Link>
                 <Link to="/Atv04" className="home-link">Atividade 4</Link>
+                <Link to="/Atv05" className="home-link">Atividade 5</Link>
             </nav>
         </div>
     );
